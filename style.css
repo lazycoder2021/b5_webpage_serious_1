@@ -1,0 +1,405 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width:480px) and (max-width:768px){
+    body{
+        //background-color:red;
+    }
+
+    .navbar .nav-link{
+        color: black !important;
+        z-index:100;
+    }
+
+    .carousel-item{
+        position:relative;
+        z-index:-100;
+    }
+
+    .carousel-item p, .carousel-item h2, .carousel-item span{
+        position:absolute;
+        top:40%;
+        left:5%;
+        color:white;
+        text-align:center;
+    }
+
+    .carousel-item h2{
+        font-weight:800;
+        font-size:32px;
+        
+    }
+
+        .carousel-item p {
+            top: 50%;
+            left: 5%;
+            font-size:24px;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+
+        .carousel-item span {
+            top: 60%;
+            left: 38%;
+            display: inline-block !important;
+            //border: 1px solid white;
+            padding: 10px !important;
+            margin-top: 15px;
+            background:white;
+            color:black;
+            font-size:18px;
+        }
+
+
+
+    .banner-wrapper {
+        height: 100vh;
+        
+    }
+
+    .banner-wrapper-inner {
+        height: 100%;
+        //background-color: rgba(0,0,0,.5);
+    }
+
+    .carousel-item {
+        background-color: rgba(27,26,26,.45)!important;
+    }
+
+    
+
+        .banner-wrapper-inner .carousel-item img {
+            height: 100vh !important;
+            object-fit: cover !important;
+            
+        }
+
+
+    .welcome-container{
+        height:100vh;
+        //border:1px solid black;
+    }
+
+    .welcome-wrapper{
+        padding:50px 0px!important;
+        height:100%; 
+    }
+
+    .welcome-wrapper-left, .welcome-wrapper-right {
+        //height: 50%;
+        //border: 1px solid black;
+        width: 100%;
+    }
+
+    .welcome-wrapper-left {
+        text-align:center;
+    }
+
+    .welcome-wrapper-right {
+        padding-top: 30px!important;
+    }
+
+    .welcome-wrapper-left h2 {
+        font-size:32px;
+    }
+
+        .welcome-wrapper-left p {
+            font-size: 18px;
+            margin:10px auto;
+        }
+    
+    .welcome-wrapper-right img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+    }
+
+    .hello{
+        display:inline-block; 
+        margin:10px auto!important;
+        font-size:24px;
+    }
+
+    .menu-container {
+        margin-top:80px;
+        height: 175vh;
+        background-image: url('images/backgrounds/9.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        z-index: -400;
+        background-color: rgba(27,26,26,.45) !important;
+        background-attachment:fixed;
+    }
+
+    .menu-container h3{
+        font-size:16px;
+    }
+
+    .menu-wrapper{
+        z-index:400;
+        background-color:white;
+        color:black;
+        //opacity:0.75;
+        margin:20px!important;
+        border-radius:8px;
+    }
+
+    .menu-buttons{
+        margin:10px auto 30px!important;
+        font-size:18px;
+        font-weight:100!important;
+    }
+
+    .menu-buttons span{
+        padding:0px 5px!important;
+        cursor:pointer;
+    }
+
+    .menu-item{
+        margin:6px auto!important;
+    }
+
+        .menu-item span {
+            color: #CCA254; 
+        }
+
+        .menu-item h3 {
+            color:#3B3228
+        }
+
+        .menu-item p {
+            color: #9B9DB8;
+        }
+
+        .text-span{
+            display:inline-block;
+            margin:10px auto!important;
+            width:100%;
+            font-size:24px;
+        }
+
+        .text-span, .text-header{
+            text-align:center;
+        }
+
+        .text-header{
+            font-size:32px;
+        }
+
+    .testimonial-container{
+        height:60vh;
+    }
+
+    .testimonial-wrapper{
+        height:80%;
+    }
+
+    .testimonial-card-wrapper{
+        height:100%; 
+    }
+
+    .testimonial-card {
+        height: 100%;
+        
+        
+        margin: 30px auto 20px !important;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        padding:0px 10px!important;
+    }
+
+    .testimonial-card img{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        border:1px solid black;
+    }
+
+    .testimonial-card i{
+        color:orange;
+        margin:15px 0px!important;
+    }
+
+    .testimonial-card h4{
+        font-size:18px;
+    }
+
+    .tns-nav button {
+        display:none;
+
+    }
+    
+
+    .tns-controls {
+        display: none;
+    }
+
+    .tns-nav {
+        display: none;
+    }
+        
+
+    .booking-section{
+        height:165vh;
+        background-image:url('images/backgrounds/6.jpg');
+        background-repeat:no-repeat; 
+        background-position:50% 50%;
+        background-size:cover;
+        background-attachment:fixed;
+        padding:20px 30px!important;
+        //border:3px solid red;
+    }
+
+    .booking-section-wrapper{
+        background:white;
+        color:black;
+        height:100%; 
+        border:2px solid black;
+        margin:20px auto 20px!important;
+        padding:20px!important;
+    }
+
+    .booking-section-wrapper-left, booking-section-wrapper-right{
+        //border:1px solid black;
+    }
+
+    .booking-section-wrapper-left {
+        height: 700px !important;
+        background-image: url('images/backgrounds/4.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        color:white;
+        padding: 20px 30px !important;
+        display:flex;
+        flex-direction:column;
+        grid-gap:50px;
+        
+    }
+
+    .booking-section-wrapper-left-text-top, .booking-section-wrapper-left-text-bottom {
+        text-align: center;
+    }
+
+    .booking-section-wrapper-left-text-top{
+        margin-top:50px;
+    }
+
+    .booking-section-wrapper-left-text-middle {
+        display:flex;
+        flex-direction:column;
+        //justify-content:space-around;
+        align-items:center;
+        
+    }
+
+    .layer{
+        margin:5px;
+    }
+
+    .booking-section-wrapper-left-text-middle span {
+        //display: inline-block;
+    }
+
+    
+
+    .booking-section-wrapper-left-text-bottom {
+        margin-top: 20px;
+    }
+
+    .contact-form{
+        //border:1px solid black;
+        padding:0px!important;
+    }
+
+
+        .tbl{
+            display:inline-block; 
+            width:100%; 
+            text-align:center;
+            color:orange;
+        }
+
+
+
+        .form-group{
+            border:1px solid black;
+            margin:3px!important;
+        }
+
+    .booking-section-wrapper-right{
+        //border:1px solid black;
+    }
+
+    .booking-section-wrapper-right h2{
+        margin-bottom:5px;
+    }
+
+        .booking-section-wrapper-right span {
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+
+        .booking-section-wrapper-right p {
+            color:grey;
+        }
+
+    .booking-section-wrapper-left {
+        //border: 1px solid black;
+    }
+
+    .contact-form .btn {
+        //border: 1px solid black;
+        width: 100%;
+        margin-top: 10px;
+        background-color: #C7A254;
+        color: white;
+    }
+
+    .blog-container{
+        height:150vh;
+    }
+
+    .blog-container h2{
+        font-size:32px;
+        margin:10px;
+    }
+
+    .miss {
+        display: inline-block;
+        width: 100%;
+        padding-top: 50px;
+        font-size:24px;
+    }
+
+    .blog-card{
+        height:30%;
+        //border:1px solid black;
+        padding-bottom:10px!important;
+        padding-top:10px!important;
+        margin-bottom:10px;
+    }
+
+    .blog-card img{
+        height: 70%;
+        width:100%;
+        object-fit:cover;
+    }
+
+    .blog-wrapper h3{
+        margin-top:15px;
+        color:grey;
+    }
+
+    .blog-wrapper p {
+        color:grey;
+    }
+
+
+}
