@@ -100,7 +100,7 @@
     </div>
 
     <div class="container-fluid menu-container">
-        <span style="font-family:cursive;color:white;text-align:center;display:inline-block;width:100%;margin-top:20px;">Our Favorites</span>
+        <span style="font-family:cursive;" class="fav">Our Favorites</span>
         <h2 style="color:white;text-align:center;">Discover Our Menu</h2>
         <div class="row menu-wrapper">
             <div class="col-lg-12 col-md-12 col-12 text-center menu-buttons" style="font-family:cursive;">
@@ -221,6 +221,34 @@
                     <span>Guest</span>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-4 col-12 testimonial-card-wrapper">
+                <div class="testimonial-card card">
+                    <img src="images/testimonials/3.png" class="testimonial-image" />
+                    <span>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </span>
+                    <p>
+                        “Been to this wonderful place many times over the last years. Tonight I
+                        have to say, it was good as it ever was. Superb food, exceedingly good staff.”
+                    </p>
+                    <h4>Matthew Wade</h4>
+                    <span>Guest</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 testimonial-card-wrapper">
+                <div class="testimonial-card card">
+                    <img src="images/testimonials/3.png" class="testimonial-image" />
+                    <span>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </span>
+                    <p>
+                        “Been to this wonderful place many times over the last years. Tonight I
+                        have to say, it was good as it ever was. Superb food, exceedingly good staff.”
+                    </p>
+                    <h4>Matthew Wade</h4>
+                    <span>Guest</span>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -228,7 +256,7 @@
         <div class="row booking-section-wrapper">
             <div class="col-lg-5 col-md-5 col-12 booking-section-wrapper-left">
                 <div class="booking-section-wrapper-left-text-top">
-                    <span style="font-family:cursive">Check Availability</span>
+                    <span style="font-family:cursive" class="aval">Check Availability</span>
                     <h2>Opening Timings</h2>
                 </div>
                 <div class="booking-section-wrapper-left-text-middle">
@@ -280,19 +308,19 @@
         <h2 class="text-center">Our News & Events</h2>
         <div class="row blog-wrapper">
             <div class="blog-card col-lg-4 col-md-4 col-12">
-                <img src="images/grid/1.jpg" />
+                <img src="images/grid/1.jpg" class="img-fluid"/>
                 <h3>Simple Recipes for Spring</h3>
                 <p>Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
                 <a href="#">Read More</a>
             </div>
             <div class="blog-card col-lg-4 col-md-4 col-12">
-                <img src="images/grid/1.jpg" />
+                <img src="images/grid/1.jpg" class="img-fluid"/>
                 <h3>Simple Recipes for Spring</h3>
                 <p>Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
                 <a href="#">Read More</a>
             </div>
             <div class="blog-card col-lg-4 col-md-4 col-12">
-                <img src="images/grid/1.jpg" />
+                <img src="images/grid/1.jpg" class="img-fluid"/>
                 <h3>Simple Recipes for Spring</h3>
                 <p>Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
                 <a href="#">Read More</a>
@@ -359,6 +387,13 @@
 
             responsive: {
                 300: {
+                    items: 1
+                },
+                450: {
+                    items:1
+                },
+
+                550: {
                     items: 1
                 },
                 640: {
